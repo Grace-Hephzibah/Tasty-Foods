@@ -36,8 +36,12 @@ with c2:
     st.subheader("Collaborative Based Filtering")
     st.write("Recommends food based on similar users")
     st.write("------------------")
-    for index, ele in enumerate(m3):
-        st.write(index, ele.title())
+    if m3 == None:
+        st.write("**Less user ratings for this food item !!!**")
+        st.write("So, the recommender cannot pull any recommendations ")
+    else:
+        for index, ele in enumerate(m3):
+            st.write(index, ele.title())
 
     st.write("------------------")
 
