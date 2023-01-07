@@ -10,4 +10,8 @@ I have created a simple web app that showcases the recommender system.
 - Firstly, I have never created a recommender system from scratch. I learnt it during the hackathon.
 - Secondly, I had a bunch of errors while working with the data, especially the recommendation part and thankfully the scikit-learn documentation helped a lot.
 
+# Links
+- https://www.kaggle.com/code/gracehephzibahm/food-recommendation-system-easy-comprehensive/
+- https://grace-hephzibah-food-recommender-app-czp0sl.streamlit.app/
+- https://devfolio.co/projects/tasty-foods-7e8b
 # Project done for the SheBuilds Hackathon ✨
