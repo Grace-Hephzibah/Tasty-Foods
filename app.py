@@ -1,9 +1,13 @@
 import streamlit as st
 import test
+from PIL import Image
 
 t = test.result()
 
 foods = t.food()
+
+favicon = Image.open("imgs/logo.png")
+st.set_page_config(page_title='Tasty Foods', page_icon = favicon)
 
 st.title("Food Recommendation System 😋")
 st.write('''###### Explore My Code Here: https://github.com/Grace-Hephzibah/Food-Recommender''')
