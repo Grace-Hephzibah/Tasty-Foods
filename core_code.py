@@ -80,5 +80,5 @@ class Recommender:
         nearest_neighbors_indices = rating_matrix.iloc[indices[0]].index[1:]
         nearest_neighbors = pd.DataFrame({'Food_ID': nearest_neighbors_indices})
         result = pd.merge(nearest_neighbors, self.df, on='Food_ID', how='left')
-        return result.head()
+        return result[1:6]
 
