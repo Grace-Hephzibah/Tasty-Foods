@@ -13,6 +13,6 @@ I have created a simple web app that showcases the recommender system.
 
 ## Links
 - https://www.kaggle.com/code/gracehephzibahm/food-recommendation-system-easy-comprehensive/
-- https://grace-hephzibah-food-recommender-app-czp0sl.streamlit.app/
+- https://tasty-foods.streamlit.app/
 - https://devfolio.co/projects/tasty-foods-7e8b
 # Project done for the SheBuilds Hackathon ✨
